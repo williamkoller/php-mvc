@@ -14,10 +14,10 @@ class HomeController
         include "view/Login.php";
     }
 
-    public function Painel()
+    public function Panel()
     {
         $model = new UsuarioModel();
         $usuario = $model->UsuarioLogado();
-        include "view/Painel.php";
+        include "view/Panel.php";
     }
 }

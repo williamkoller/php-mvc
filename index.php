@@ -13,8 +13,8 @@ switch ($pagina){
     case "login" :
         $ctrl->Login();
         break;
-    case "painel" :
-        $ctrl->Painel();
+    case "panel" :
+        $ctrl->Panel();
         break;
 }
 
